@@ -46,16 +46,16 @@ ingress:
     - host: ms.jdcloud.com
       paths:
         - path: /docs/
-          serviceName: phoenix-doc
+          serviceName: doc
           servicePort: 80
         - path: /wx/
-          serviceName: phoenix-wx
+          serviceName: wx-service
           servicePort: 80
         - path: /jms/
-          serviceName: phoenix-openapi-service
+          serviceName: openapi-service
           servicePort: 80
         - path: /*
-          serviceName: phoenix-web
+          serviceName: web
           servicePort: 80
   tls:
   - secretName: secret-tls
