@@ -8,7 +8,7 @@ apiVersion: extensions/v1beta1
 {{- end }}
 kind: Ingress
 metadata:
-  name: {{ $fullName }}
+  name: {{ .Chart.Name }}
   labels:
     {{- include "phoenix-web.labels" . | nindent 4 }}
   {{- with .Values.ingress.annotations }}
