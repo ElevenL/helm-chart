@@ -54,7 +54,7 @@ ingress:
         - path: /jms/
           serviceName: phoenix-openapi-service
           servicePort: 80
-        - path: /
+        - path: /*
           serviceName: phoenix-web
           servicePort: 80
   tls:
