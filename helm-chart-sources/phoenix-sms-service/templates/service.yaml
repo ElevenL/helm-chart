@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ .Chart.Name }}
+  name: sms-service
   labels:
     {{- include "phoenix-sms-service.labels" . | nindent 4 }}
 spec:
