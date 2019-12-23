@@ -1,0 +1,56 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: mysql-server
+spec:
+  type: {{ .Values.mysqlService.serviceType }}
+  externalName: {{ .Values.mysqlService.externalName }}
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: redis-server
+spec:
+  type: {{ .Values.redisService.serviceType }}
+  externalName: {{ .Values.redisService.externalName }}
+---
+kind: Endpoints
+apiVersion: v1
+metadata:
+  name: sync
+subsets:
+  - addresses:
+      - ip: {{ .Values.syncService.endpointIp }}
+    ports:
+      - port: {{ .Values.syncService.endpointPort }}
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: sync
+spec:
+  type: {{ .Values.syncService.serviceType }}
+  ports:
+    - protocol: TCP
+      port: {{ .Values.syncService.port }}
+      targetPort: {{ .Values.syncService.endpointPort }}
+---
+kind: Endpoints
+apiVersion: v1
+metadata:
+  name: backup
+subsets:
+  - addresses:
+      - ip: {{ .Values.backupService.endpointIp }}
+    ports:
+      - port: {{ .Values.backupService.endpointPort }}
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: backup
+spec:
+  ports:
+    - protocol: TCP
+      port: {{ .Values.backupService.port }}
+      targetPort: {{ .Values.backupService.endpointPort }}
