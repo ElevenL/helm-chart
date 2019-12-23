@@ -54,7 +54,7 @@ ingress:
         - path: /jms/
           serviceName: openapi-service
           servicePort: 80
-        - path: /*
+        - path: /
           serviceName: web
           servicePort: 80
   tls:
