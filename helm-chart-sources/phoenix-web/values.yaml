@@ -57,7 +57,7 @@ ingress:
         - path: /
           serviceName: web
           servicePort: 80
-  tls:{}
+#  tls:
 #  - secretName: secret-tls
 #    hosts:
 #      - ms.jdcloud.com
