@@ -3,7 +3,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2019-12-23T11:28:13.356696+08:00"
+    created: "2019-12-23T21:11:45.885679+08:00"
     description: A Helm chart for Kubernetes
     digest: a026790c907b90e2ed51accbdff81758c496adaacb0864d507fa43ec7cd13cbb
     name: helm-chart-test
@@ -11,4 +11,114 @@ entries:
     urls:
     - https://github.com/ElevenL/helm-chart/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2019-12-23T11:28:13.355446+08:00"
+  phoenix-ansible-service:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2019-12-23T21:11:45.88615+08:00"
+    description: A Helm chart for Kubernetes
+    digest: a22b39e2fad2d38a8fe2f7fd73b9ba81054c88f3639cd2abadff8a8323c283f7
+    name: phoenix-ansible-service
+    type: application
+    urls:
+    - https://github.com/ElevenL/helm-chart/phoenix-ansible-service-0.1.0.tgz
+    version: 0.1.0
+  phoenix-doc:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2019-12-23T21:11:45.886594+08:00"
+    description: A Helm chart for Kubernetes
+    digest: e3e00b5f52456b3e3c067da09ddd7eb33321eb6bf1ec6e28027843adcc8dbea0
+    name: phoenix-doc
+    type: application
+    urls:
+    - https://github.com/ElevenL/helm-chart/phoenix-doc-0.1.0.tgz
+    version: 0.1.0
+  phoenix-external-service:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2019-12-23T21:11:45.887067+08:00"
+    description: A Helm chart for Kubernetes
+    digest: b6d22b19cc4d2e1ad3566cc9e93fd36dcc7a0c86dd6702a93a746031a5961cc7
+    name: phoenix-external-service
+    type: application
+    urls:
+    - https://github.com/ElevenL/helm-chart/phoenix-external-service-0.1.0.tgz
+    version: 0.1.0
+  phoenix-gw:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2019-12-23T21:11:45.887491+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 386d173ea8db56e64d5e771146391a1aef04e331c6dc3720f0565e8201085d2a
+    name: phoenix-gw
+    type: application
+    urls:
+    - https://github.com/ElevenL/helm-chart/phoenix-gw-0.1.0.tgz
+    version: 0.1.0
+  phoenix-openapi-service:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2019-12-23T21:11:45.887949+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 81da15293bc26d63be7f87c88e5220a20bc62fdeba76863065cad4a4e1cacede
+    name: phoenix-openapi-service
+    type: application
+    urls:
+    - https://github.com/ElevenL/helm-chart/phoenix-openapi-service-0.1.0.tgz
+    version: 0.1.0
+  phoenix-proxy-service:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2019-12-23T21:11:45.888429+08:00"
+    description: A Helm chart for Kubernetes
+    digest: e2edf2017ab6f1dc249749c8c10da34d1df1f2c49174debab1b727b2993bd287
+    name: phoenix-proxy-service
+    type: application
+    urls:
+    - https://github.com/ElevenL/helm-chart/phoenix-proxy-service-0.1.0.tgz
+    version: 0.1.0
+  phoenix-registry:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2019-12-23T21:11:45.888948+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 447b6fa9cfb6a863865181ddd47a9fb49b3957b906ec1b456a5d26db6510cba4
+    name: phoenix-registry
+    type: application
+    urls:
+    - https://github.com/ElevenL/helm-chart/phoenix-registry-0.1.0.tgz
+    version: 0.1.0
+  phoenix-sms-service:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2019-12-23T21:11:45.889469+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 1c5001b1e4ac4db2b83bd67b9c23d898046a71e7026d293ccdbfaf6056c16405
+    name: phoenix-sms-service
+    type: application
+    urls:
+    - https://github.com/ElevenL/helm-chart/phoenix-sms-service-0.1.0.tgz
+    version: 0.1.0
+  phoenix-web:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2019-12-23T21:11:45.89003+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 3894dbf48ac957c5eb1a4975441f49a0f9c2fd11590d9e773c02ef230c69e07b
+    name: phoenix-web
+    type: application
+    urls:
+    - https://github.com/ElevenL/helm-chart/phoenix-web-0.1.0.tgz
+    version: 0.1.0
+  phoenix-wx:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2019-12-23T21:11:45.890512+08:00"
+    description: A Helm chart for Kubernetes
+    digest: f832ccb432ede07c0270f4b6d946dce5792b05d58355f62aba1a6e5d8729fbc3
+    name: phoenix-wx
+    type: application
+    urls:
+    - https://github.com/ElevenL/helm-chart/phoenix-wx-0.1.0.tgz
+    version: 0.1.0
+generated: "2019-12-23T21:11:45.883949+08:00"
