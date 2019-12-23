@@ -8,7 +8,6 @@ image:
   repository: jdcms-cn-north-1.jcr.service.jdcloud.com
   branch: dev
   build_id: 12
-  profile: dev
   pullPolicy: IfNotPresent
 
 imagePullSecrets:
