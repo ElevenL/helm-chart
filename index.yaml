@@ -9,7 +9,7 @@ entries:
     name: helm-chart-test
     type: application
     urls:
-    - https://github.com/ElevenL/helm-chart/helm-chart-test-0.1.0.tgz
+    - https://elevenl.github.io/helm-chart/helm-chart-test-0.1.0.tgz
     version: 0.1.0
   phoenix-ansible-service:
   - apiVersion: v2
@@ -20,7 +20,7 @@ entries:
     name: phoenix-ansible-service
     type: application
     urls:
-    - https://github.com/ElevenL/helm-chart/phoenix-ansible-service-0.1.0.tgz
+    - https://elevenl.github.io/helm-chart/phoenix-ansible-service-0.1.0.tgz
     version: 0.1.0
   phoenix-doc:
   - apiVersion: v2
@@ -31,7 +31,7 @@ entries:
     name: phoenix-doc
     type: application
     urls:
-    - https://github.com/ElevenL/helm-chart/phoenix-doc-0.1.0.tgz
+    - https://elevenl.github.io/helm-chart/phoenix-doc-0.1.0.tgz
     version: 0.1.0
   phoenix-external-service:
   - apiVersion: v2
@@ -42,7 +42,7 @@ entries:
     name: phoenix-external-service
     type: application
     urls:
-    - https://github.com/ElevenL/helm-chart/phoenix-external-service-0.1.0.tgz
+    - https://elevenl.github.io/helm-chart/phoenix-external-service-0.1.0.tgz
     version: 0.1.0
   phoenix-gw:
   - apiVersion: v2
@@ -53,7 +53,7 @@ entries:
     name: phoenix-gw
     type: application
     urls:
-    - https://github.com/ElevenL/helm-chart/phoenix-gw-0.1.0.tgz
+    - https://elevenl.github.io/helm-chart/phoenix-gw-0.1.0.tgz
     version: 0.1.0
   phoenix-openapi-service:
   - apiVersion: v2
@@ -64,7 +64,7 @@ entries:
     name: phoenix-openapi-service
     type: application
     urls:
-    - https://github.com/ElevenL/helm-chart/phoenix-openapi-service-0.1.0.tgz
+    - https://elevenl.github.io/helm-chart/phoenix-openapi-service-0.1.0.tgz
     version: 0.1.0
   phoenix-proxy-service:
   - apiVersion: v2
@@ -75,7 +75,7 @@ entries:
     name: phoenix-proxy-service
     type: application
     urls:
-    - https://github.com/ElevenL/helm-chart/phoenix-proxy-service-0.1.0.tgz
+    - https://elevenl.github.io/helm-chart/phoenix-proxy-service-0.1.0.tgz
     version: 0.1.0
   phoenix-registry:
   - apiVersion: v2
@@ -86,7 +86,7 @@ entries:
     name: phoenix-registry
     type: application
     urls:
-    - https://github.com/ElevenL/helm-chart/phoenix-registry-0.1.0.tgz
+    - https://elevenl.github.io/helm-chart/phoenix-registry-0.1.0.tgz
     version: 0.1.0
   phoenix-sms-service:
   - apiVersion: v2
@@ -97,7 +97,7 @@ entries:
     name: phoenix-sms-service
     type: application
     urls:
-    - https://github.com/ElevenL/helm-chart/phoenix-sms-service-0.1.0.tgz
+    - https://elevenl.github.io/helm-chart/phoenix-sms-service-0.1.0.tgz
     version: 0.1.0
   phoenix-web:
   - apiVersion: v2
@@ -108,7 +108,7 @@ entries:
     name: phoenix-web
     type: application
     urls:
-    - https://github.com/ElevenL/helm-chart/phoenix-web-0.1.0.tgz
+    - https://elevenl.github.io/helm-chart/phoenix-web-0.1.0.tgz
     version: 0.1.0
   phoenix-wx:
   - apiVersion: v2
@@ -119,6 +119,6 @@ entries:
     name: phoenix-wx
     type: application
     urls:
-    - https://github.com/ElevenL/helm-chart/phoenix-wx-0.1.0.tgz
+    - https://elevenl.github.io/helm-chart/phoenix-wx-0.1.0.tgz
     version: 0.1.0
 generated: "2019-12-23T21:15:14.098326+08:00"
