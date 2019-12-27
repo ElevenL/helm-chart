@@ -3,7 +3,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2019-12-23T21:15:14.099417+08:00"
+    created: "2019-12-27T15:50:19.194229+08:00"
     description: A Helm chart for Kubernetes
     digest: a026790c907b90e2ed51accbdff81758c496adaacb0864d507fa43ec7cd13cbb
     name: helm-chart-test
@@ -11,10 +11,21 @@ entries:
     urls:
     - https://elevenl.github.io/helm-chart/helm-chart-test-0.1.0.tgz
     version: 0.1.0
+  locust:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2019-12-27T15:50:19.194795+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 2317f50be52d1bbaecf381984727d5c6f05d01b5270c75da9aec803ccfa2a05e
+    name: locust
+    type: application
+    urls:
+    - https://elevenl.github.io/helm-chart/locust-0.1.0.tgz
+    version: 0.1.0
   phoenix-ansible-service:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2019-12-23T21:15:14.099876+08:00"
+    created: "2019-12-27T15:50:19.197003+08:00"
     description: A Helm chart for Kubernetes
     digest: a22b39e2fad2d38a8fe2f7fd73b9ba81054c88f3639cd2abadff8a8323c283f7
     name: phoenix-ansible-service
@@ -25,7 +36,7 @@ entries:
   phoenix-doc:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2019-12-23T21:15:14.100313+08:00"
+    created: "2019-12-27T15:50:19.198229+08:00"
     description: A Helm chart for Kubernetes
     digest: e3e00b5f52456b3e3c067da09ddd7eb33321eb6bf1ec6e28027843adcc8dbea0
     name: phoenix-doc
@@ -36,7 +47,7 @@ entries:
   phoenix-external-service:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2019-12-23T21:15:14.10076+08:00"
+    created: "2019-12-27T15:50:19.199186+08:00"
     description: A Helm chart for Kubernetes
     digest: b6d22b19cc4d2e1ad3566cc9e93fd36dcc7a0c86dd6702a93a746031a5961cc7
     name: phoenix-external-service
@@ -47,7 +58,7 @@ entries:
   phoenix-gw:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2019-12-23T21:15:14.101173+08:00"
+    created: "2019-12-27T15:50:19.200046+08:00"
     description: A Helm chart for Kubernetes
     digest: 386d173ea8db56e64d5e771146391a1aef04e331c6dc3720f0565e8201085d2a
     name: phoenix-gw
@@ -58,7 +69,7 @@ entries:
   phoenix-openapi-service:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2019-12-23T21:15:14.10159+08:00"
+    created: "2019-12-27T15:50:19.200859+08:00"
     description: A Helm chart for Kubernetes
     digest: 81da15293bc26d63be7f87c88e5220a20bc62fdeba76863065cad4a4e1cacede
     name: phoenix-openapi-service
@@ -69,7 +80,7 @@ entries:
   phoenix-proxy-service:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2019-12-23T21:15:14.102035+08:00"
+    created: "2019-12-27T15:50:19.201492+08:00"
     description: A Helm chart for Kubernetes
     digest: e2edf2017ab6f1dc249749c8c10da34d1df1f2c49174debab1b727b2993bd287
     name: phoenix-proxy-service
@@ -80,7 +91,7 @@ entries:
   phoenix-registry:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2019-12-23T21:15:14.102488+08:00"
+    created: "2019-12-27T15:50:19.202103+08:00"
     description: A Helm chart for Kubernetes
     digest: 447b6fa9cfb6a863865181ddd47a9fb49b3957b906ec1b456a5d26db6510cba4
     name: phoenix-registry
@@ -91,7 +102,7 @@ entries:
   phoenix-sms-service:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2019-12-23T21:15:14.102941+08:00"
+    created: "2019-12-27T15:50:19.202693+08:00"
     description: A Helm chart for Kubernetes
     digest: 1c5001b1e4ac4db2b83bd67b9c23d898046a71e7026d293ccdbfaf6056c16405
     name: phoenix-sms-service
@@ -102,7 +113,7 @@ entries:
   phoenix-web:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2019-12-23T21:15:14.103458+08:00"
+    created: "2019-12-27T15:50:19.203808+08:00"
     description: A Helm chart for Kubernetes
     digest: 3894dbf48ac957c5eb1a4975441f49a0f9c2fd11590d9e773c02ef230c69e07b
     name: phoenix-web
@@ -113,7 +124,7 @@ entries:
   phoenix-wx:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2019-12-23T21:15:14.10396+08:00"
+    created: "2019-12-27T15:50:19.204475+08:00"
     description: A Helm chart for Kubernetes
     digest: f832ccb432ede07c0270f4b6d946dce5792b05d58355f62aba1a6e5d8729fbc3
     name: phoenix-wx
@@ -121,4 +132,4 @@ entries:
     urls:
     - https://elevenl.github.io/helm-chart/phoenix-wx-0.1.0.tgz
     version: 0.1.0
-generated: "2019-12-23T21:15:14.098326+08:00"
+generated: "2019-12-27T15:50:19.192027+08:00"
