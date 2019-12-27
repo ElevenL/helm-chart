@@ -1,0 +1,19 @@
+{{if eq .Values.role "master" }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: locust-{{ .Values.role }}
+  labels:
+    app.kubernetes.io/name: locust-{{ .Values.role }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+  {{- range .Values.ports }}
+  - name: {{ .name }}
+    port: {{ .containerPort }}
+    targetPort: {{ .containerPort }}
+    protocol: {{ .protocol }}
+  {{ end }}
+  selector:
+    app.kubernetes.io/name: locust-{{ .Values.role }}
+{{ end }}
