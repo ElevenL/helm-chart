@@ -30,7 +30,7 @@ spec:
             - name: LOCUST_MODE
               value: {{ .Values.role }}
             - name: TARGET_HOST
-              value: {{ .Values.target_host }}
+              value: {{ .Values.target_scehma }}://{{ .Values.target_host }}
             - name: LOCUST_MASTER
               value: locust-master
           {{if eq .Values.role "master" }}

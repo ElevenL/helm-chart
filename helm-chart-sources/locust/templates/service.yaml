@@ -16,4 +16,34 @@ spec:
   {{ end }}
   selector:
     app.kubernetes.io/name: locust-{{ .Values.role }}
+{{if .Values.target_service.enabled }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.target_host }}
+spec:
+  type: {{ .Values.target_service.type }}
+  {{ if eq .Values.target_service.type "ClusterIP" }}
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+    protocol: TCP
+  {{ else }}
+  externalName: {{ .Values.target_service.externalName }}
+  {{ end }}
+{{ if eq .Values.target_service.type "ClusterIP" }}
+---
+kind: Endpoints
+apiVersion: v1
+metadata:
+  name: {{ .Values.target_host }}
+subsets:
+  - addresses:
+      - ip: {{ .Values.target_service.endpointIp }}
+    ports:
+      - port: 80
+{{ end }}
+{{ end }}
 {{ end }}

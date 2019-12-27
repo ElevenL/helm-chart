@@ -5,7 +5,14 @@
 replicaCount: 1
 
 role: master
-target_host: http://www.baidu.com
+target_scehma: http
+target_host: ms.jdcloud.com
+
+target_service:
+  enabled: false
+  type: ClusterIP
+  externalName: www.baidu.com
+  endpointIp: 116.196.85.214
 
 image:
   repository: jdcms-cn-north-1.jcr.service.jdcloud.com/locust-tasks
