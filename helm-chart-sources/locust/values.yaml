@@ -5,7 +5,7 @@
 replicaCount: 1
 
 role: master
-target_scehma: http
+target_scehma: https
 target_host: ms.jdcloud.com
 
 target_service:
